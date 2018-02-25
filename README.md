@@ -7,7 +7,7 @@ This Zabbix script checks kafka's consumer lag and can discover all the consumer
 ## Requirements
 Kafka, Zabbix' agent
 
-##Installation
+## Installation
 * Download the script on the kafka server
 * Create the following directory: /etc/zabbix/externalscripts
 * Move the script in this directory
@@ -34,7 +34,7 @@ key: kcg.lag[{#CONSUMER_GROUP}]
 
 
 
-##Usage
+## Usage
 ```
 This zabbix script can discovery all consumer groups in a Kafka server and calculate the global lag for a specific consumer group
 Usage: kcg.sh
